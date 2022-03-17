@@ -1,0 +1,61 @@
+body{
+    background-color: blueviolet;
+}
+
+.Main-container{
+    display: flex;
+    align-self:center;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.sec-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    height: 12rem;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin: 10px;
+    border-radius: 50%;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 20px;
+}
+.display h1, .display p{
+    margin: 0;
+    padding: 0;
+}
+
+.Primary-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.unique{
+    color: #fff;
+}
+.Primary-container button{
+    width: 100%;
+    margin: 20px;
+    width: 200px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
